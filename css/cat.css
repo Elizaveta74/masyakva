@@ -1,0 +1,57 @@
+html {
+    background-color: #edd55f;
+}
+
+h1 a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 a:hover {
+    color: darkgray;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #d19045;
+    padding: 0 20px 20px 20px;
+    border: 2px solid white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-align: justify;
+    color: rgb(38, 10, 49)
+}
+
+.footer {
+    height: 150px;
+    background-color: rgb(196, 111, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+description {
+    color: rgb(59, 11, 59);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.description:hover {
+    color: darkgray;
+}

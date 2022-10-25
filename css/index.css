@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*для учебных целей - обнуление стилей, для работы Normalize.css*/
+}
+
+.header {
+    height: 200px;
+    background-color: rgb(212, 104, 16);
+    display: flex;
+}
+
+.logo {
+    font-family: sans-serif;
+    font-size: x-large;
+    color: rgb(19, 18, 18);
+    width: 100px;
+    height: 50px;
+    background-color: rgb(214, 236, 88);
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.logo-link {
+    text-decoration: none;
+}
+
+.pic1 {
+    width: 350px;
+    height: 350px;
+    border: 2px solid rgb(212, 104, 16);
+    border-radius: 50px;
+    background-image: url(../img/04.jpg);
+    background-size: cover;
+}
+
+.pic2 {
+    width: 350px;
+    height: 350px;
+    border: 2px solid rgb(212, 104, 16);
+    border-radius: 50px;
+    background-image: url(../img/05.jpg);
+    background-size: cover;
+}
+
+.pic3 {
+    width: 350px;
+    height: 350px;
+    border: 2px solid rgb(212, 104, 16);
+    border-radius: 50px;
+    background-image: url(../img/03.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    margin: 400px 0;
+}
+
+.footer {
+    height: 150px;
+    background-color: rgb(196, 111, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-family: sans-serif;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(214, 236, 88);
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px 25px;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: blanchedalmond;
+    color: rgb(153, 71, 4);
+    border: 1px solid rgb(212, 104, 16);
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.description {
+    color: rgb(59, 11, 59);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.description:hover {
+    color: darkgray;
+}
